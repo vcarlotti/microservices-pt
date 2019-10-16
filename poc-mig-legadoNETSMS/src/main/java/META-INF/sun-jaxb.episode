@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<bindings xmlns="http://java.sun.com/xml/ns/jaxb" if-exists="true" version="2.1">
+  <!--
+
+Este arquivo foi gerado pela Arquitetura JavaTM para Implementação de Referência (JAXB) de Bind XML, v2.2.11 
+Consulte <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
+Todas as modificações neste arquivo serão perdidas após a recompilação do esquema de origem. 
+Gerado em: 2019.01.17 às 02:31:51 PM BRST 
+
+  -->
+  <bindings xmlns:tns="http://www.openuri.org/" if-exists="true" scd="x-schema::tns">
+    <schemaBindings map="false">
+      <package name="br.com.netservicos.atender.contrato"/>
+    </schemaBindings>
+    <bindings if-exists="true" scd="tns:identificarContratoRequest">
+      <class ref="br.com.netservicos.atender.contrato.IdentificarContratoRequest"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:identificarContratoRequestResponse">
+      <class ref="br.com.netservicos.atender.contrato.IdentificarContratoRequestResponse"/>
+    </bindings>
+  </bindings>
+  <bindings xmlns:tns="http://netservicos.com.br/atender/contrato/schema" if-exists="true" scd="x-schema::tns">
+    <schemaBindings map="false">
+      <package name="br.com.netservicos.atender.contrato"/>
+    </schemaBindings>
+    <bindings if-exists="true" scd="tns:RetornoIdentificaContrato">
+      <class ref="br.com.netservicos.atender.contrato.RetornoIdentificaContrato"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:ContratoAssinante">
+      <class ref="br.com.netservicos.atender.contrato.ContratoAssinante"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:ContratoAssinanteRow">
+      <class ref="br.com.netservicos.atender.contrato.ContratoAssinanteRow"/>
+    </bindings>
+  </bindings>
+  <bindings xmlns:tns="http://netservicos.com.br/core/schema" if-exists="true" scd="x-schema::tns">
+    <schemaBindings map="false">
+      <package name="br.com.netservicos.atender.contrato"/>
+    </schemaBindings>
+    <bindings if-exists="true" scd="tns:RetornoPadrao">
+      <class ref="br.com.netservicos.atender.contrato.RetornoPadrao"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:RetornoPadraoRow">
+      <class ref="br.com.netservicos.atender.contrato.RetornoPadraoRow"/>
+    </bindings>
+  </bindings>
+</bindings>

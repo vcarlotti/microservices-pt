@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: poc-mig-legadoNETSMS
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: vinicius-soa
+Implementation-Vendor-Id: br.com.clarobrasil
+Build-Jdk: 1.8.0_201
+Implementation-URL: http://projects.spring.io/spring-boot/poc-mig-lega
+ doNETSMS/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+
