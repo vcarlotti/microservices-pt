@@ -22,6 +22,6 @@ The Company has 8 databases and service consumption should transparently route t
 
 Solution: We reimplemented initDataSource by passing all linked databases (through a properties file), and at the time of service query, an interceptor is performed to verify through the client code to which database it belongs.
 
-<br>microservices-architecture</b>
+<b>microservices-architecture:</b>
 
 This is the presetation that i made in FEB/2019 to show actions and future inside integration team.
